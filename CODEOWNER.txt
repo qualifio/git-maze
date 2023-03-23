@@ -1,1 +1,1 @@
-Test maintainer <test@maintainer.com>
+Test maintainer <test@qualifio.com>
