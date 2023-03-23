@@ -1,0 +1,11 @@
+{
+  "name": "git-maze",
+  "version": "0.0.0",
+  "description": "This should provide a few helpers to go further down the rabbit hole",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
