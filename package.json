@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "get_hash": "bash xor.sh $(git log | sha1sum | awk '{print $1}') $(cat xor_key)",
+    "get_hash": "bash xor.sh $(git log HEAD^ | sha1sum | awk '{print $1}') $(cat xor_key)",
     "get_notes": "git notes merge origin -s cat_sort_uniq"
   },
   "author": "",
