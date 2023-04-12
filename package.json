@@ -1,0 +1,13 @@
+{
+  "name": "git-maze",
+  "version": "0.0.0",
+  "description": "This should provide a few helpers to go further down the rabbit hole",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get_hash": "bash xor.sh $(git log HEAD^ | openssl sha1 -r | awk '{print $1}') $(cat xor_key)",
+    "get_notes": "git notes merge origin -s cat_sort_uniq"
+  },
+  "author": "",
+  "license": "ISC"
+}
