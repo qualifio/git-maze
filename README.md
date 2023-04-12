@@ -12,3 +12,8 @@ help you contact our team.
 
 ## How do i know if i'm correct?
 Enter the git commit id in the form, we'll let you know.
+
+## What git commit id should i provide?
+As soon as you don't find any pointer to a next commit, the commit you find should be the correct one.
+
+To start, take a look at [TODO.md](TODO.md)
