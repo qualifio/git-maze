@@ -8,3 +8,6 @@ The Repository is used as part of the challenge available at this location and w
 
 ## How do i know if i'm correct?
 Enter the git commit id in the form, we'll let you know.
+
+## I'm lost
+If you're on this commit, you might want to run commands in the package.json to continue searching for another commit
